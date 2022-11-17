@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5639a28e-541c-4632-824f-fa2f6434e9bb" name="Changes" comment="Supplier">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/fuctionalinterface/_Stream_.java" afterDir="false" />
+    <list default="true" id="5639a28e-541c-4632-824f-fa2f6434e9bb" name="Changes" comment="Supplier &amp; Stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/combinatorpattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/combinatorpattern/CustomerValidatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/combinatorpattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lex/optionals/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lex/fuctionalinterface/_Supplier_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lex/fuctionalinterface/_Supplier_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +43,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._Stream_">
-    <configuration name="_Consumer_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lex.fuctionalinterface._Consumer_" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lex.optionals.Main" />
       <module name="javafp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lex.fuctionalinterface.*" />
+          <option name="PATTERN" value="com.lex.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application._Stream_" />
         <item itemvalue="Application._Stream_ (1)" />
         <item itemvalue="Application._Supplier_" />
         <item itemvalue="Application._Predicate_" />
-        <item itemvalue="Application._Consumer_" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668525420561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Supplier &amp; Stream">
+      <created>1668609045556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668609045556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Supplier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Supplier" />
+    <MESSAGE value="Supplier &amp; Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Supplier &amp; Stream" />
   </component>
 </project>
