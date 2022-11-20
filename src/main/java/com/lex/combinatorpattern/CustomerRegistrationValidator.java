@@ -12,6 +12,7 @@ public interface CustomerRegistrationValidator
         extends Function<Customer, CustomerRegistrationValidator.ValidationResult> {
 
     static Logger log = Logger.getLogger(CustomerRegistrationValidator.class.getName());
+
     static CustomerRegistrationValidator isEmailValid(){
         return customer -> {
             log.config("Running email validation");
@@ -20,6 +21,7 @@ public interface CustomerRegistrationValidator
                     ? SUCCESS : EMAIL_NOT_VALID;
         };
     }
+
 
     static CustomerRegistrationValidator isPhoneNumberValid(){
         return customer -> customer.getPhoneNumber().startsWith("+0")
